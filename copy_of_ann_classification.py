@@ -97,7 +97,7 @@ history=model.fit(
     callbacks=[tensorflow_callback,earlystopping_callback]
 )
 
-model.save('model',save_format="tf")
+model.save('churn_model.keras',save_format="tf")
 
 # Commented out IPython magic to ensure Python compatibility.
 # %load_ext tensorboard
