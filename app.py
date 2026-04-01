@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/106PzH_WvqyvrpzjLDxqV3Wg4Q53-TF_j
 """
 
-pip install tensorflow
-
-pip install tensorflow.keras
-
-pip install streamlit
 
 import streamlit as st
 import numpy as np
