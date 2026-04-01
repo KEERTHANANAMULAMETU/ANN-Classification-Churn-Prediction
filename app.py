@@ -17,7 +17,7 @@ import numpy as np
 
 from tensorflow.keras.models import load_model
 
-model = load_model("model.h5")
+model = load_model("model.h5",compile=False)
 
 with open('scaler.pkl','rb') as file:
     scaler=pickle.load(file)
