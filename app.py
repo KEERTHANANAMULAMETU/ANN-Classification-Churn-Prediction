@@ -10,7 +10,6 @@ Original file is located at
 
 import streamlit as st
 import numpy as np
-import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder, StandardScaler, OneHotEncoder
 from tensorflow.keras.models import load_model
 import pandas as pd
